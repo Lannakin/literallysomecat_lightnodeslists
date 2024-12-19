@@ -1,15 +1,23 @@
-"copypasta snippets":
+
 {
 "paths":
-    [
-        "_resourcepack\\dungeons\\dwemer\\animated",
-        "_resourcepack\\dungeons\\dwemer"
-    ],
+[
+"_resourcepack\\dungeons\\dwemer\\animated",
+"_resourcepack\\dungeons\\dwemer"
+],
+
+
 "templates":
 [
+
+
 "_resourcepack\\",
-"light": "",
-"light color in hex": ""
+{
+    "light": "",
+    "color": "#"
+}
+
+
 ]
 }
 
@@ -22,38 +30,51 @@
 
 
 
+
+"_resourcepack\\dungeons\\dwemer\\animated\\dwevaultlight01.nif",
+{
+  "light": "Glow",
+  "color": "#aedfff",
+  "place light looks like it's supposed to appear to be from": "DweVaultLight01"
+}
+
+
+"_resourcepack\\dungeons\\dwemer\\animated\\dwevaultlight01static.nif",
+{
+  "light": "Glow",
+  "color": "#aedfff",
+  "place light looks like it's supposed to appear to be from": "DweVaultLight01Static"
+}
+
+
+"_resourcepack\\dungeons\\dwemer\\animated\\dwevaultstatuslight01.nif",
+{
+  "light1": "LightOn04",
+  "color": "#3c97b9",
+  "light2": "Ligh03Fire01", **this typo is intentional
+  "color": "#fcab63",
+  "light3": "Ligh102Shock01",
+  "color": "#7d7aff",
+  "light4": "Light01Frost01",
+  "color": "#a09eee",
+}
+
+
 "_resourcepack\\dungeons\\dwemer\\animated\\dwevaultplatformtopseal01\\dwevaultplatformtopseal01.nif", 
 {
-    "light color in hex": "",
-    "light": ""
-},
-"_resourcepack\\dungeons\\dwemer",
-
-
-    {
-      "addonNodes": [ 49 ],
-      "lights": [
-        {
-          "whiteList": [
-            "clutter\\imperial\\impchandelliercandle01.nif",
-            "clutter\\imperial\\impchandelliercandle02.nif",
-            "clutter\\imperial\\impchandelliercandle03.nif",
-            "clutter\\candles\\candlehornchandelier01.nif",
-            "clutter\\candles\\candlehornchandelier02.nif"
-          ],
-          "data": {
-            "light": "Candle",
-            "radius": 304.0,
-            "fade": 1.0,
-            "flags": "PortalStrict",
-            "conditions": [
-             
-            "Self LocationHasKeyword LocTypeJail NONE == 1 OR"
+    "light1": "LightOn01",
+    "color": "#3c97b9",
+    "light2": "LightOn02",
+    "color": "#3c97b9",
+    "light3": "Light03Fire",
+    "color": "#fcab63",
+    "light4": "Light02Shock",
+    "color": "#7d7aff",
+    "light5": "Light01Frost",
+    "color": "#a09eee",
+    "light6": "LightOn03",
+    "color": "#3c97b9"
     
-           ]
-  
-          }
-        }
-      ]
-    }
+}
+
 ]
