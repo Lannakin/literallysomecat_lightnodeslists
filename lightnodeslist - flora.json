@@ -1,0 +1,18 @@
+[
+  {
+    "models": [ 
+      "creationclub\\bgssse037\\clutter\\ingredients\\luminousrussula.nif",
+      "plants\\floradeathbell02.nif" ],
+    "lights": [
+      {
+        "points": [ [ 0.0, 0.0, 0.0 ] ],
+        "data": {
+          "light": "nocturnallight",
+          "radius": 32.0,
+          "fade": 0.7,
+          "flags": "Simple"
+        }
+      }
+    ]
+  }
+]

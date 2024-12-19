@@ -1,0 +1,59 @@
+"copypasta snippets":
+{
+"paths":
+    [
+        "_resourcepack\\dungeons\\dwemer\\animated",
+        "_resourcepack\\dungeons\\dwemer"
+    ],
+"templates":
+[
+"_resourcepack\\",
+"light": "",
+"light color in hex": ""
+]
+}
+
+
+
+[
+
+
+"_resourcepack\\impchandeliercandle01nochain.nif",
+
+
+
+"_resourcepack\\dungeons\\dwemer\\animated\\dwevaultplatformtopseal01\\dwevaultplatformtopseal01.nif", 
+{
+    "light color in hex": "",
+    "light": ""
+},
+"_resourcepack\\dungeons\\dwemer",
+
+
+    {
+      "addonNodes": [ 49 ],
+      "lights": [
+        {
+          "whiteList": [
+            "clutter\\imperial\\impchandelliercandle01.nif",
+            "clutter\\imperial\\impchandelliercandle02.nif",
+            "clutter\\imperial\\impchandelliercandle03.nif",
+            "clutter\\candles\\candlehornchandelier01.nif",
+            "clutter\\candles\\candlehornchandelier02.nif"
+          ],
+          "data": {
+            "light": "Candle",
+            "radius": 304.0,
+            "fade": 1.0,
+            "flags": "PortalStrict",
+            "conditions": [
+             
+            "Self LocationHasKeyword LocTypeJail NONE == 1 OR"
+    
+           ]
+  
+          }
+        }
+      ]
+    }
+]
